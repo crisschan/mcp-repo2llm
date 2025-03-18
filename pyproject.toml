@@ -1,0 +1,17 @@
+[project]
+name = "mcp-repo2llm-server"
+version = "0.1.0"
+description = "get repo2llm from mcp"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "asyncio>=3.4.3",
+    "dotenv>=0.9.9",
+    "logging>=0.4.9.6",
+    "loging>=0.0.1",
+    "mcp[cli]>=1.4.1",
+    "pathspec>=0.12.1",
+    "pygithub>=2.6.1",
+    "python-gitlab>=5.6.0",
+    "tqdm>=4.67.1",
+]
