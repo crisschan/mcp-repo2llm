@@ -2,6 +2,7 @@
 ## Overview
 mcp-repo2llm is a MCP server  that transforms code repositories into LLM-friendly formats.
 A powerful tool that transforms code repositories into LLM-friendly formats, bridging the gap between traditional code bases and modern AI language models.
+This repo is based on [RepoToTextForLLMs](https://github.com/crisschan/RepoToTextForLLMs), which provides core functionality for converting repositories into LLM-readable formats.
 
 ## Motivation
 
@@ -65,3 +66,4 @@ GITLAB_TOKEN: your gitlab token
 - Input:
     - repo_url (string): the repository  path 
 - Returns(string): The project all information and struction from the repository as text
+
